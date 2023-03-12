@@ -291,6 +291,27 @@ nav {
       .Education, .Photo   {
         display: inline-block
       }
+  
+  
+      .whatsapp-link {
+      position: fixed;
+      bottom: 50px;
+    
+      width: 70px;
+      height: 70px;
+      right: 40px;
+      background-color: #25d366;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 40px;
+      box-shadow: 1px 1px 2px #888;
+      z-index: 1000;
+    border-style:solid;
+    
+    
+    
+    }
  
    #title_1 {
   
