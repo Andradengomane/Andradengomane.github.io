@@ -342,7 +342,7 @@ nav {
 width: 350px;
  opacity: ;
  font-family: cursive;
- font-size: 10px;
+ font-size: 14px;
  text-align: justify;
  
  }
@@ -350,7 +350,7 @@ width: 350px;
  #title {
   
   color: darkorange;
-  font-size:  11px;
+  font-size:  14px;
   
   
   } 
@@ -358,7 +358,7 @@ width: 350px;
   .title {
   
     color: darkorange;
-    font-size:  11px;
+    font-size:  14px;
    
     
     }
@@ -373,7 +373,7 @@ width: 350px;
     
     text-align: left;
     color:white;
-    font-family: cursive;
+    font-family: Arial;
     width: 350px;
     height: 250px;
     border-style: groove;
@@ -394,7 +394,7 @@ width: 350px;
     padding: 4px;
     color:white;
     margin-top: 50px;
-    font-family: cursive;
+    font-family: Arial;
     border-style:groove;
     padding-right: 29px;
  margin-left: 28px;
@@ -416,10 +416,10 @@ width: 350px;
     padding-left: 0px;
     border-style: solid;
     opacity: 100px;
-    font-family: cursive;
-    font-size: small;
-    padding-right: 10px;
+    font-family: Arial;
     margin-left: 28px;
+    font-size: 14px;
+    padding-right: 10px;
     border-color:  rgb(252, 248, 3);
     margin-top: 40px;
     border-radius: 50px;
@@ -433,7 +433,7 @@ width: 350px;
       padding: 20px;
       margin-right: px;
       color:white;
-      font-family: cursive;
+      font-family:Arial;
       font-size: small;
       text-align: left;
       
@@ -443,8 +443,8 @@ width: 350px;
         position: fixed;
         bottom: 50px;
       
-        width: 60px;
-        height: 60px;
+        width: 100px;
+        height: 100px;
         right: 40px;
         background-color: #25d366;
         color: #fff;
