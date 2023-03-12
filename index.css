@@ -319,7 +319,7 @@ nav {
  border-style: groove;
 width: 350px;
  opacity: ;
- font-family: cursive;
+ font-family: Arial;
  font-size: 14px;
  text-align: justify;
  
@@ -412,7 +412,7 @@ width: 350px;
       margin-right: px;
       color:white;
       font-family:Arial;
-      font-size: small;
+      font-size: 12px;
       text-align: left;
       
       }  
