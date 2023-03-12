@@ -289,33 +289,11 @@ nav {
       }
 
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 480px) {
       .Education, .Photo   {
         display: inline-block
       }
      
-           .title {
-        font-family:  Arial;
-     
-        
-      }
-     
-     
-        #text{
- 
-    font-family:Arial;
-   
-     
-     
-     nav {
- font-family:Arial;
- 
-    }
- 
-   #title_1 {
-  
-         font-size:  12px;
- }
 
  .photo_perfil{
    
