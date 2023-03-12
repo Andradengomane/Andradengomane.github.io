@@ -293,6 +293,13 @@ nav {
       .Education, .Photo   {
         display: inline-block
       }
+     
+           .title {
+        font-family:  areal;
+        color: darkorange;
+        font-size:  20px;
+        
+      }
  
    #title_1 {
   
