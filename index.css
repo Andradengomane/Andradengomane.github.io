@@ -295,13 +295,20 @@ nav {
       }
      
            .title {
-        font-family:  areal;
-        color: darkorange;
-        font-size:  20px;
+        font-family:  Arial;
+     
         
       }
+     
+     
+        #text{
+ 
+    font-family:Arial;
+   
+     
+     
      nav {
- font-family:areal;
+ font-family:Arial;
  
     }
  
