@@ -1,463 +1,169 @@
- 
-nav {
-
-    color:darkorange;
-    background-color:rgb(0, 0, 0) ;
-    padding: 10px;
-    display: flex;
-    justify-content:space-around;
-    font-family:cursive;
-    border-radius: 50px;
-    opacity: 100px;
-    height: 100px;
-    }
-    
-    
-    
-    #title_1 {
-    
-      color: darkorange;
-      font-size:  18px;
-      margin-top: 16px;
-      
-      
-      }
-    
-    #title {
-    
-    color: darkorange;
-    font-size:  20px;
-    
-    
-    }
-    
-      #text{
-    text-decoration: none;
-    font-family:cursive;
-    color:  rgb(255, 166, 1);
-    
-    
-    
-      }
-    
-    
-     
-    
-    #color {
-      color: darkorange;
-      text-decoration: none;
-      font-family:cursive;
-      
-    
-    }
-    
-    
-    
-    
-    
-    
-      .Photo {
-    display: flex;
-    
-    
-    
-    
-    
-      }
-    
-    
-    .photo_perfil{
-     
-      margin-top: 60px;
-      height: 300px;
-      width: 250px;
-      border-color: rgb(255, 255, 255);
-      border-radius: 50%;
-      border-style: thin;
-      margin-left: 30px;
-      
-    }
-    .photo_text{
-    
-     
-     color:white;
-      padding: 40px;
-     margin-top: 40px;
-     height: 250px;
-     margin-left: 50px;
-    border-radius: 70px;
-    border-right-style: solid;
-    border-color: rgb(0, 0, 0);
-    border-style: thin;
-    padding-right: 40px;
-    opacity: 100px;
-    font-family: cursive;
-    font-size: small;
-    text-align: justify;
-    
-     
-    
-    
-    
-    
-    
-    
-    }
-    
-    .photo_skills{
-    
-    margin-top: 40px;
-    padding: 50px;
-    
-    text-align: left;
-    color:white;
-    font-family: cursive;
-    margin-left: 220px;
-    height: 250px;
-    border-style: groove;
-    border-radius: 70px;
-    margin-left: 40px;
-    border-color: rgb(252, 188, 70);
-    font-size: small;
-    margin-right: 15px;
-    margin-left: 7px;
-    border-width: thin;
-    height: 280px;
-    
-    
-    
-    
-    
-    }
-    
-    
-    #quote {
-    
-    padding: 4px;
-    color:white;
-    margin-top: 50px;
-    font-family: cursive;
-    border-style:groove;
-    padding-right: 9px;
-    margin-left: 18px;
-    border-color: rgb(252, 248, 3);
-    padding-left: 10px;
-    margin-right: 15px;
-    border-radius: 50px;
-    border-width: thin;
-    margin-top: 100px;
-    text-align: center;
-    
-    
-    
-    }
-    
-    .Education {
-    display: flex;
-    display: inline-flex;
-    padding-left: 1px;
-    border-style: solid;
-    opacity: 100px;
-    font-family: cursive;
-    font-size: small;
-    padding-right: 10px;
-    margin-left: 70px;
-    border-color:  rgb(252, 248, 3);
-    margin-top: 40px;
-    border-radius: 50px;
-    border-width: thin;
-    margin-top: 100px;
-    
-    
-    
-    
-    
-    
-    
-    }
-    
-    .Education_first {
-    
-    padding: 20px;
-    
-    margin-right: 100px;
-    margin-left: 50px;
-    color:white;
-    font-family: cursive;
-    
-    font-family: Helvetica;
-    font-size: small;
-    
-    }
-    
-    .Education_second {
-    
-    padding: 20px;
-    margin-right: 200px;
-    color:white;
-    font-family: cursive;
-    font-size: small;
-    
-    }
-    
-    .Education_third {
-    
-    padding: 20px;
-    color:white;
-    font-family: cursive;
-    margin-right: 50px;
-    font-family: Helvetica;
-    font-size: small;
-    
-    
-    }
-      body{
-    
-    background-image: url("https://wallpapers.com/images/featured/murjp1nk4lp1idlt.jpg");
-    background-repeat: no-repeat;
-    margin-right: 3px;
-    
-    
-    background-size: cover;  /* 300 pixels de largura e altura automática */
-    
-    }
-    
-    
-    .icones-sociais {
-    display: flex;
-    justify-content: center;
-    padding: 2px;
-    list-style: none;
-    
-    
-    
-    margin-top: 100px;
-    
-    margin-bottom: 50px;
-    
-    
-    letter-spacing: 1px;
-    
-    }
-    #copyright{
-    color: white;
-    text-align:center ;
-    margin-bottom: 10px;
-    list-style: none;
-    font-size: 13px;
-    
-    }
-    
-    .whatsapp-link {
-      position: fixed;
-      bottom: 50px;
-    
-      width: 60px;
-      height: 60px;
-      right: 40px;
-      background-color: #25d366;
-      color: #fff;
-      border-radius: 50px;
-      text-align: center;
-      font-size: 30px;
-      box-shadow: 1px 1px 2px #888;
-      z-index: 1000;
-    border-style:solid;
-    
-    
-    
-    }
-      .fa-brands {
-        margin-top: 14px;
-    
-      }
-    
-    
-    
-      
-    
-    
-    
-      .title {
-        font-family: cursive;
-        color: darkorange;
-        font-size:  20px;
-        
-      }
-      .copyright_1{
-       list-style:none;
-      }
- @media screen and (max-width: 500px) {
-      .Education, .Photo   {
-        display: inline-block
-      }
+ html {
+    height: 100%;
+  }
+  body {
+    margin: 1;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+  }
   
-  
-      .whatsapp-link {
-      position: fixed;
-      bottom: 50px;
-    
-      width: 70px;
-      height: 70px;
-      right: 40px;
-      background-color: #25d366;
-      color: #fff;
-      border-radius: 50px;
-      text-align: center;
-      font-size: 45px;
-      box-shadow: 1px 1px 2px #888;
-      z-index: 1000;
-    border-style:solid;
-   }
- 
-   #title_1 {
-  
-         font-size:  10px;
- }
-
- .photo_perfil{
-   
-  margin-top: 10px;
-  height: 200px;
-  width: 200px;
-  border-color: rgb(255, 255, 255);
-  border-radius: 50%;
-  border-style: thin;
-  margin-left: 100px;
-
- }
-
- .photo_text{
-  color:white;
-   padding: 50px;
-  margin-top: 40px;
-  height: 300px;
-  margin-left: 20px;
- border-radius: 70px;
- border-width: thin;
- border-color:rgb(252, 188, 70) ;
- border-style: groove;
-width: 350px;
- opacity: ;
- font-family: cursive;
- font-size: 10px;
- text-align: justify;
- 
- }
-
- #title {
-  
-  color: darkorange;
-  font-size:  11px;
-  
-  
-  } 
-
-  .title {
-  
-    color: darkorange;
-    font-size:  11px;
-   
-    
-    }
-
-
-
-
-  .photo_skills{
-  
-    margin-top: 40px;
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
     padding: 40px;
-    
-    text-align: left;
-    color:white;
-    font-family: cursive;
-    width: 350px;
-    height: 250px;
-    border-style: groove;
-    border-radius: 70px;
-   
-    border-color: rgb(252, 188, 70);
-    font-size: small;
-    margin-right: 10px;
-    margin-left: 20px;
-    border-width: thin;
-    height: 280px;
-  
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
   }
-
-   
-  #quote {
   
-    padding: 4px;
-    color:white;
-    margin-top: 50px;
-    font-family: cursive;
-    border-style:groove;
-    padding-right: 29px;
- margin-left: 28px;
-    border-color: rgb(252, 248, 3);
-    padding-left: 10px;
-    margin-right: 15px;
-    border-radius: 50px;
-    border-width: thin;
-    margin-top: 100px;
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
     text-align: center;
-    
-    
-    
-    }
-    
-    .Education {
-    display: flex;
-    display: inline-block;
-    padding-left: 0px;
-    border-style: solid;
-    opacity: 100px;
-    font-family: cursive;
-    font-size: small;
-    padding-right: 10px;
-    margin-left: 28px;
-    border-color:  rgb(252, 248, 3);
-    margin-top: 40px;
-    border-radius: 50px;
-    border-width: thin;
-    margin-top: 100px;
-    width: 340px;
-    }
-  
-    .Education_first {
-  
-      padding: 20px;
-      margin-right: px;
-      color:white;
-      font-family: cursive;
-      font-size: small;
-      text-align: left;
-      
-      }  
-
-      .whatsapp-link {
-        position: fixed;
-        bottom: 50px;
-      
-        width: 70px;
-        height: 70px;
-        right: 20px;
-        background-color: #25d366;
-        color: #fff;
-        border-radius: 50px;
-        text-align: center;
-        font-size: 10px;
-        box-shadow: 1px 1px 2px #888;
-        z-index: 1000;
-      border-style:solid;
-      }
-      
-     
-   
   }
-
-
-    
-    
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+  }
+  
+  .login-box a:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+      0 0 100px #03e9f4;
+  }
+  
+  .login-box a span {
+    position: absolute;
+    display: block;
+  }
+  
+  .login-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,
+    100% {
+      left: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: 0.25s;
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,
+    100% {
+      top: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,
+    100% {
+      right: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: 0.75s;
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,
+    100% {
+      bottom: 100%;
+    }
+  }
